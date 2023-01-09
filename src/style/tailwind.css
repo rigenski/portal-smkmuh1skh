@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@keyframes rotate {
+    0%, 100% {
+      transform: translateY(-15%) translateX(-15%) rotate(15deg);
+    }
+    50% {
+      transform: translateY(0) translateX(-30%) rotate(-15deg);
+    }
+  }
+
+.animate-rotate {
+    animation: rotate 1.2s infinite;
+}
