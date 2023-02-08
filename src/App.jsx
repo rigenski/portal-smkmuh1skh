@@ -155,7 +155,7 @@ function App() {
                         className="h-10 md:h-12 w-10 md:w-12"
                       />
                       <a
-                        href="https://jurnalmu.smkmuh1-skh.sch.id/"
+                        href="https://jurnal.smkn1gondangsragen.com"
                         target="blank"
                         className="px-4 py-2 text-sm font-normal text-white bg-white-10 rounded-lg"
                       >
@@ -183,7 +183,7 @@ function App() {
                         className="h-10 md:h-12 w-10 md:w-12"
                       />
                       <a
-                        href="http://sikadu.smkmutuharjo.com/"
+                        href="https://tamu.smkn1gondangsragen.com"
                         target="blank"
                         className="px-4 py-2 text-sm font-normal text-white bg-white-10 rounded-lg"
                       >
@@ -211,7 +211,7 @@ function App() {
                         className="h-10 md:h-12 w-10 md:w-12"
                       />
                       <a
-                        href="https://cbtmutuharjo.com/"
+                        href="https://cbt.smkn1gondangsragen.com"
                         target="blank"
                         className="px-4 py-2 text-sm font-normal text-white bg-white-10 rounded-lg"
                       >
