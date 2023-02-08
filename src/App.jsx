@@ -178,7 +178,7 @@ function App() {
                     </div>
                     <div className="flex justify-between items-end">
                       <Icon
-                        icon="material-symbols:question-mark"
+                        icon="mdi:book-edit"
                         color="#fff"
                         className="h-10 md:h-12 w-10 md:w-12"
                       />
