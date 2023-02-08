@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
 @keyframes rotate {
     0%, 100% {
       transform: translateY(-15%) translateX(-15%) rotate(15deg);
