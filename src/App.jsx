@@ -1136,7 +1136,7 @@ function App() {
       <nav className="w-full bg-sky-100">
         <div className="container sm:max-w-xl lg:max-w-4xl mx-auto px-4 sm:px-0 py-4">
           <p className="text-sm font-normal text-slate-800">
-            &copy; Copyright - SMK Muhammadiyah 1 Sukoharjo 🔥
+            &copy; Copyright - SMK Negeri 1 Gondang Sragen 🔥
           </p>
         </div>
       </nav>
