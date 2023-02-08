@@ -14,7 +14,7 @@ function App() {
             </li>
             <li className="mx-2">
               <a
-                href="https://smkmuh1-skh.sch.id/"
+                href="https://smkn1gondangsragen.sch.id/"
                 target="_blank"
                 className="text-sm font-normal text-slate-800"
               >
@@ -23,7 +23,7 @@ function App() {
             </li>
             <li className="mx-2">
               <a
-                href="https://wa.me/628812884809"
+                href=""
                 target="_blank"
                 className="text-sm font-normal text-slate-800"
               >
@@ -58,7 +58,7 @@ function App() {
                 <div>
                   <p className="mb-0.5 text-sm text-white">Informasi Terbaru</p>
                   <h4 className="mb-2 hidden text-lg font-semibold text-white md:text-2xl md:block">
-                    PPDB SMK Muhammadiyah 1 Sukoharjo <br />
+                    SMK Negeri 1 Gondang Sragen <br />
                     Tahun Pelajaran 2023/2024
                   </h4>
                   <h4 className="mb-2 block text-lg font-semibold text-white md:text-2xl md:hidden">
@@ -66,7 +66,7 @@ function App() {
                   </h4>
                   <div className="flex items-center">
                     <a
-                      href="http://ppdb.smkmuh1-skh.sch.id/"
+                      href="https://smkn1gondangsragen.sch.id/"
                       target="blank"
                       className="mr-0.5 px-8 py-2 flex items-center text-sm font-normal text-white bg-gradient-to-br from-emerald-400 to-emerald-600 rounded-lg"
                     >
@@ -78,7 +78,7 @@ function App() {
                         className="ml-2"
                       />
                     </a>
-                    <a
+                    {/* <a
                       href="https://www.facebook.com/smkmutuharjo/"
                       target="blank"
                       className="mr-0.5"
@@ -121,11 +121,11 @@ function App() {
                         color="#fff"
                         className="ml-2 h-6 w-6"
                       />
-                    </a>
+                    </a> */}
                   </div>
                 </div>
                 <div>
-                  <div className="w-56 -mb-8 hidden lg:block">
+                  <div className="w-32 hidden lg:block">
                     <img src={Banner} alt="" className="w-full h-full" />
                   </div>
                 </div>
@@ -133,6 +133,97 @@ function App() {
             </div>
           </div>
           <div className="mb-2 md:mb-4">
+            <h4 className="mb-2 text-md font-semibold md:text-xl md:mb-4">
+              Daftar Aplikasi
+            </h4>
+            <div className="grid grid-cols-2 lg:grid-cols-4 -mx-2">
+              <div className="px-2 pb-4">
+                <div className="w-full h-40 p-4 bg-gradient-to-br from-pink-600 to-pink-800 rounded-xl shadow-lg md:h-48">
+                  <div className="h-full flex flex-col justify-between">
+                    <div>
+                      <h4 className="mb-0.5 text-md font-medium text-white md:mb-2 md:text-lg">
+                        Jurnal
+                      </h4>
+                      <p className="text-xs font-normal text-white opacity-40">
+                        Rekap absen mengajar setiap guru dan karyawan ...
+                      </p>
+                    </div>
+                    <div className="flex justify-between items-end">
+                      <Icon
+                        icon="material-symbols:book"
+                        color="#fff"
+                        className="h-10 md:h-12 w-10 md:w-12"
+                      />
+                      <a
+                        href="https://jurnalmu.smkmuh1-skh.sch.id/"
+                        target="blank"
+                        className="px-4 py-2 text-sm font-normal text-white bg-white-10 rounded-lg"
+                      >
+                        Buka
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="px-2 pb-4">
+                <div className="w-full h-40 p-4 bg-gradient-to-br from-sky-600 to-sky-800 rounded-xl shadow-lg md:h-48">
+                  <div className="h-full flex flex-col justify-between">
+                    <div>
+                      <h4 className="mb-0.5 text-md font-medium text-white md:mb-2 md:text-lg">
+                        Buku Tamu
+                      </h4>
+                      <p className="text-xs font-normal text-white opacity-40">
+                        Description aplikasi ...
+                      </p>
+                    </div>
+                    <div className="flex justify-between items-end">
+                      <Icon
+                        icon="material-symbols:question-mark"
+                        color="#fff"
+                        className="h-10 md:h-12 w-10 md:w-12"
+                      />
+                      <a
+                        href="http://sikadu.smkmutuharjo.com/"
+                        target="blank"
+                        className="px-4 py-2 text-sm font-normal text-white bg-white-10 rounded-lg"
+                      >
+                        Buka
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="px-2 pb-4">
+                <div className="w-full h-40 p-4 bg-gradient-to-br from-teal-600 to-teal-800 rounded-xl shadow-lg md:h-48">
+                  <div className="h-full flex flex-col justify-between">
+                    <div>
+                      <h4 className="mb-0.5 text-md font-medium text-white md:mb-2 md:text-lg">
+                        Ujian Online
+                      </h4>
+                      <p className="text-xs font-normal text-white opacity-40">
+                        Description aplikasi ...
+                      </p>
+                    </div>
+                    <div className="flex justify-between items-end">
+                      <Icon
+                        icon="material-symbols:task"
+                        color="#fff"
+                        className="h-10 md:h-12 w-10 md:w-12"
+                      />
+                      <a
+                        href="https://cbtmutuharjo.com/"
+                        target="blank"
+                        className="px-4 py-2 text-sm font-normal text-white bg-white-10 rounded-lg"
+                      >
+                        Buka
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          {/* <div className="mb-2 md:mb-4">
             <h4 className="mb-2 text-md font-semibold md:text-xl md:mb-4">
               Aplikasi Kurikulum
             </h4>
@@ -1039,7 +1130,7 @@ function App() {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </main>
       <nav className="w-full bg-sky-100">
