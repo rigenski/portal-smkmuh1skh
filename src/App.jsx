@@ -62,7 +62,7 @@ function App() {
                     Tahun Pelajaran 2023/2024
                   </h4>
                   <h4 className="mb-2 block text-lg font-semibold text-white md:text-2xl md:hidden">
-                    PPDB SMK Muhammadiyah 1 Sukoharjo Tahun Pelajaran 2023/2024
+                    SMK Negeri 1 Gondang Sragen Tahun Pelajaran 2023/2024
                   </h4>
                   <div className="flex items-center">
                     <a
@@ -173,7 +173,7 @@ function App() {
                         Buku Tamu
                       </h4>
                       <p className="text-xs font-normal text-white opacity-40">
-                        Description aplikasi ...
+                        Buku yang berisi nama tamu yang hadir ...
                       </p>
                     </div>
                     <div className="flex justify-between items-end">
@@ -201,7 +201,7 @@ function App() {
                         Ujian Online
                       </h4>
                       <p className="text-xs font-normal text-white opacity-40">
-                        Description aplikasi ...
+                        Tes online yang menampilkan soal-soal ujian ...
                       </p>
                     </div>
                     <div className="flex justify-between items-end">
@@ -223,13 +223,13 @@ function App() {
               </div>
             </div>
           </div>
-          {/* <div className="mb-2 md:mb-4">
+          <div className="mb-2 md:mb-4">
             <h4 className="mb-2 text-md font-semibold md:text-xl md:mb-4">
               Aplikasi Kurikulum
             </h4>
             <div className="grid grid-cols-2 lg:grid-cols-4 -mx-2">
               <div className="px-2 pb-4">
-                <div className="w-full h-40 p-4 bg-gradient-to-br from-red-600 to-red-800 rounded-xl shadow-lg md:h-48">
+                <div className="w-full h-40 p-4 bg-gradient-to-br from-red-600 to-red-800 rounded-xl shadow-lg opacity-50 md:h-48">
                   <div className="h-full flex flex-col justify-between">
                     <div>
                       <h4 className="mb-0.5 text-md font-medium text-white md:mb-2 md:text-lg">
@@ -246,18 +246,22 @@ function App() {
                         className="h-10 md:h-12 w-10 md:w-12"
                       />
                       <a
-                        href="https://raport.smkmuh1-skh.sch.id/"
+                        href="#"
                         target="blank"
-                        className="px-4 py-2 text-sm font-normal text-white bg-white-10 rounded-lg"
+                        className="px-4 py-2 text-sm font-normal text-white bg-white-10 rounded-lg pointer-events-none"
                       >
-                        Buka
+                        <Icon
+                          icon="material-symbols:lock-outline"
+                          color="#fff"
+                          className="h-5 w-5"
+                        />
                       </a>
                     </div>
                   </div>
                 </div>
               </div>
-              <div className="px-2 pb-4">
-                <div className="w-full h-40 p-4 bg-gradient-to-br from-pink-600 to-pink-800 rounded-xl shadow-lg md:h-48">
+              {/* <div className="px-2 pb-4">
+                <div className="w-full h-40 p-4 bg-gradient-to-br from-pink-600 to-pink-800 rounded-xl shadow-lg opacity-50 md:h-48">
                   <div className="h-full flex flex-col justify-between">
                     <div>
                       <h4 className="mb-0.5 text-md font-medium text-white md:mb-2 md:text-lg">
@@ -276,16 +280,20 @@ function App() {
                       <a
                         href="https://jurnalmu.smkmuh1-skh.sch.id/"
                         target="blank"
-                        className="px-4 py-2 text-sm font-normal text-white bg-white-10 rounded-lg"
+                        className="px-4 py-2 text-sm font-normal text-white bg-white-10 rounded-lg pointer-events-none"
                       >
-                        Buka
+                        <Icon
+                          icon="material-symbols:lock-outline"
+                          color="#fff"
+                          className="h-5 w-5"
+                        />
                       </a>
                     </div>
                   </div>
                 </div>
-              </div>
+              </div> */}
               <div className="px-2 pb-4">
-                <div className="w-full h-40 p-4 bg-gradient-to-br from-green-600 to-green-800 rounded-xl shadow-lg md:h-48">
+                <div className="w-full h-40 p-4 bg-gradient-to-br from-green-600 to-green-800 rounded-xl shadow-lg opacity-50 md:h-48">
                   <div className="h-full flex flex-col justify-between">
                     <div>
                       <h4 className="mb-0.5 text-md font-medium text-white md:mb-2 md:text-lg">
@@ -302,18 +310,22 @@ function App() {
                         className="h-10 md:h-12 w-10 md:w-12"
                       />
                       <a
-                        href="http://kartumu.smkmuh1-skh.sch.id/"
+                        href="#"
                         target="blank"
-                        className="px-4 py-2 text-sm font-normal text-white bg-white-10 rounded-lg"
+                        className="px-4 py-2 text-sm font-normal text-white bg-white-10 rounded-lg pointer-events-none"
                       >
-                        Buka
+                        <Icon
+                          icon="material-symbols:lock-outline"
+                          color="#fff"
+                          className="h-5 w-5"
+                        />
                       </a>
                     </div>
                   </div>
                 </div>
               </div>
-              <div className="px-2 pb-4">
-                <div className="w-full h-40 p-4 bg-gradient-to-br from-teal-600 to-teal-800 rounded-xl shadow-lg md:h-48">
+              {/* <div className="px-2 pb-4">
+                <div className="w-full h-40 p-4 bg-gradient-to-br from-teal-600 to-teal-800 rounded-xl shadow-lg opacity-50 md:h-48">
                   <div className="h-full flex flex-col justify-between">
                     <div>
                       <h4 className="mb-0.5 text-md font-medium text-white md:mb-2 md:text-lg">
@@ -332,23 +344,27 @@ function App() {
                       <a
                         href="https://cbtmutuharjo.com/"
                         target="blank"
-                        className="px-4 py-2 text-sm font-normal text-white bg-white-10 rounded-lg"
+                        className="px-4 py-2 text-sm font-normal text-white bg-white-10 rounded-lg pointer-events-none"
                       >
-                        Buka
+                        <Icon
+                          icon="material-symbols:lock-outline"
+                          color="#fff"
+                          className="h-5 w-5"
+                        />
                       </a>
                     </div>
                   </div>
                 </div>
-              </div>
+              </div> */}
               <div className="px-2 pb-4">
-                <div className="w-full h-40 p-4 bg-gradient-to-br from-sky-600 to-sky-800 rounded-xl shadow-lg md:h-48">
+                <div className="w-full h-40 p-4 bg-gradient-to-br from-sky-600 to-sky-800 rounded-xl shadow-lg opacity-50 md:h-48">
                   <div className="h-full flex flex-col justify-between">
                     <div>
                       <h4 className="mb-0.5 text-md font-medium text-white md:mb-2 md:text-lg">
                         Info Kelulusan
                       </h4>
                       <p className="text-xs font-normal text-white opacity-40">
-                        Description aplikasi ...
+                        Informasi kelulusan untuk para siswa ...
                       </p>
                     </div>
                     <div className="flex justify-between items-end">
@@ -358,25 +374,29 @@ function App() {
                         className="h-10 md:h-12 w-10 md:w-12"
                       />
                       <a
-                        href="https://kelulusan.smkmuh1-skh.sch.id/"
+                        href="#"
                         target="blank"
-                        className="px-4 py-2 text-sm font-normal text-white bg-white-10 rounded-lg"
+                        className="px-4 py-2 text-sm font-normal text-white bg-white-10 rounded-lg pointer-events-none"
                       >
-                        Buka
+                        <Icon
+                          icon="material-symbols:lock-outline"
+                          color="#fff"
+                          className="h-5 w-5"
+                        />
                       </a>
                     </div>
                   </div>
                 </div>
               </div>
               <div className="px-2 pb-4">
-                <div className="w-full h-40 p-4 bg-gradient-to-br from-blue-600 to-blue-800 rounded-xl shadow-lg md:h-48">
+                <div className="w-full h-40 p-4 bg-gradient-to-br from-blue-600 to-blue-800 rounded-xl shadow-lg opacity-50 md:h-48">
                   <div className="h-full flex flex-col justify-between">
                     <div>
                       <h4 className="mb-0.5 text-md font-medium text-white md:mb-2 md:text-lg">
                         E-Learning
                       </h4>
                       <p className="text-xs font-normal text-white opacity-40">
-                        Description aplikasi ...
+                        Pembelajaran online secara efektif ...
                       </p>
                     </div>
                     <div className="flex justify-between items-end">
@@ -388,23 +408,27 @@ function App() {
                       <a
                         href="http://smkmutuharjo.com/"
                         target="blank"
-                        className="px-4 py-2 text-sm font-normal text-white bg-white-10 rounded-lg"
+                        className="px-4 py-2 text-sm font-normal text-white bg-white-10 rounded-lg pointer-events-none"
                       >
-                        Buka
+                        <Icon
+                          icon="material-symbols:lock-outline"
+                          color="#fff"
+                          className="h-5 w-5"
+                        />
                       </a>
                     </div>
                   </div>
                 </div>
               </div>
               <div className="px-2 pb-4">
-                <div className="w-full h-40 p-4 bg-gradient-to-br from-rose-600 to-rose-800 rounded-xl shadow-lg md:h-48">
+                <div className="w-full h-40 p-4 bg-gradient-to-br from-rose-600 to-rose-800 rounded-xl shadow-lg opacity-50 md:h-48">
                   <div className="h-full flex flex-col justify-between">
                     <div>
                       <h4 className="mb-0.5 text-md font-medium text-white md:mb-2 md:text-lg">
                         Perangkat Pembelajaran
                       </h4>
                       <p className="text-xs font-normal text-white opacity-40">
-                        Description aplikasi ...
+                        Properti untuk pembelajaran ...
                       </p>
                     </div>
                     <div className="flex justify-between items-end">
@@ -414,11 +438,15 @@ function App() {
                         className="h-10 md:h-12 w-10 md:w-12"
                       />
                       <a
-                        href="https://raport.smkmuh1-skh.sch.id/"
+                        href="#"
                         target="blank"
-                        className="px-4 py-2 text-sm font-normal text-white bg-white-10 rounded-lg"
+                        className="px-4 py-2 text-sm font-normal text-white bg-white-10 rounded-lg pointer-events-none"
                       >
-                        Buka
+                        <Icon
+                          icon="material-symbols:lock-outline"
+                          color="#fff"
+                          className="h-5 w-5"
+                        />
                       </a>
                     </div>
                   </div>
@@ -432,7 +460,7 @@ function App() {
             </h4>
             <div className="grid grid-cols-2 lg:grid-cols-4 -mx-2">
               <div className="px-2 pb-4">
-                <div className="w-full h-40 p-4 bg-gradient-to-br from-amber-600 to-amber-800 rounded-xl shadow-lg md:h-48">
+                <div className="w-full h-40 p-4 bg-gradient-to-br from-amber-600 to-amber-800 rounded-xl shadow-lg opacity-50 md:h-48">
                   <div className="h-full flex flex-col justify-between">
                     <div>
                       <h4 className="mb-0.5 text-md font-medium text-white md:mb-2 md:text-lg">
@@ -449,18 +477,22 @@ function App() {
                         className="h-10 md:h-12 w-10 md:w-12"
                       />
                       <a
-                        href="http://ppdb.smkmuh1-skh.sch.id/"
+                        href="#"
                         target="blank"
-                        className="px-4 py-2 text-sm font-normal text-white bg-white-10 rounded-lg"
+                        className="px-4 py-2 text-sm font-normal text-white bg-white-10 rounded-lg pointer-events-none"
                       >
-                        Buka
+                        <Icon
+                          icon="material-symbols:lock-outline"
+                          color="#fff"
+                          className="h-5 w-5"
+                        />
                       </a>
                     </div>
                   </div>
                 </div>
               </div>
               <div className="px-2 pb-4">
-                <div className="w-full h-40 p-4 bg-gradient-to-br from-purple-600 to-purple-800 rounded-xl shadow-lg md:h-48">
+                <div className="w-full h-40 p-4 bg-gradient-to-br from-purple-600 to-purple-800 rounded-xl shadow-lg opacity-50 md:h-48">
                   <div className="h-full flex flex-col justify-between">
                     <div>
                       <h4 className="mb-0.5 text-md font-medium text-white md:mb-2 md:text-lg">
@@ -477,25 +509,30 @@ function App() {
                         className="h-10 md:h-12 w-10 md:w-12"
                       />
                       <a
-                        href="http://kartumu.smkmuh1-skh.sch.id/"
+                        href="#"
                         target="blank"
-                        className="px-4 py-2 text-sm font-normal text-white bg-white-10 rounded-lg"
+                        className="px-4 py-2 text-sm font-normal text-white bg-white-10 rounded-lg pointer-events-none"
                       >
-                        Buka
+                        <Icon
+                          icon="material-symbols:lock-outline"
+                          color="#fff"
+                          className="h-5 w-5"
+                        />
                       </a>
                     </div>
                   </div>
                 </div>
               </div>
               <div className="px-2 pb-4">
-                <div className="w-full h-40 p-4 bg-gradient-to-br from-fuchsia-600 to-fuchsia-800 rounded-xl shadow-lg md:h-48">
+                <div className="w-full h-40 p-4 bg-gradient-to-br from-fuchsia-600 to-fuchsia-800 rounded-xl shadow-lg opacity-50 md:h-48">
                   <div className="h-full flex flex-col justify-between">
                     <div>
                       <h4 className="mb-0.5 text-md font-medium text-white md:mb-2 md:text-lg">
                         Presensi Siswa
                       </h4>
                       <p className="text-xs font-normal text-white opacity-40">
-                        Description aplikasi ...
+                        Kehadiran peserta didik dalam kegiatan belajar mengajar
+                        ...
                       </p>
                     </div>
                     <div className="flex justify-between items-end">
@@ -507,9 +544,13 @@ function App() {
                       <a
                         href="https://admin.katalis.info/authentication/login"
                         target="blank"
-                        className="px-4 py-2 text-sm font-normal text-white bg-white-10 rounded-lg"
+                        className="px-4 py-2 text-sm font-normal text-white bg-white-10 rounded-lg pointer-events-none"
                       >
-                        Buka
+                        <Icon
+                          icon="material-symbols:lock-outline"
+                          color="#fff"
+                          className="h-5 w-5"
+                        />
                       </a>
                     </div>
                   </div>
@@ -523,7 +564,7 @@ function App() {
                         Prestasi Siswa
                       </h4>
                       <p className="text-xs font-normal text-white opacity-40">
-                        Description aplikasi ...
+                        Hasil yang telah dicapai oleh siswa ...
                       </p>
                     </div>
                     <div className="flex justify-between items-end">
@@ -555,7 +596,7 @@ function App() {
                         Penanganan Siswa
                       </h4>
                       <p className="text-xs font-normal text-white opacity-40">
-                        Description aplikasi ...
+                        Menangani siswa yang bermasalah ...
                       </p>
                     </div>
                     <div className="flex justify-between items-end">
@@ -594,7 +635,7 @@ function App() {
                         Buku Online
                       </h4>
                       <p className="text-xs font-normal text-white opacity-40">
-                        Description aplikasi ...
+                        Buku yang berbentuk digital yang berisi informasi ...
                       </p>
                     </div>
                     <div className="flex justify-between items-end">
@@ -626,7 +667,7 @@ function App() {
                         SIM Perpus
                       </h4>
                       <p className="text-xs font-normal text-white opacity-40">
-                        Description aplikasi ...
+                        Pendekatan pelayanan perpustakaan ...
                       </p>
                     </div>
                     <div className="flex justify-between items-end">
@@ -658,7 +699,7 @@ function App() {
                         Pengunjung
                       </h4>
                       <p className="text-xs font-normal text-white opacity-40">
-                        Description aplikasi ...
+                        Rekap data pengunjung ...
                       </p>
                     </div>
                     <div className="flex justify-between items-end">
@@ -690,14 +731,14 @@ function App() {
             </h4>
             <div className="grid grid-cols-2 lg:grid-cols-4 -mx-2">
               <div className="px-2 pb-4">
-                <div className="w-full h-40 p-4 bg-gradient-to-br from-yellow-600 to-yellow-800 rounded-xl shadow-lg md:h-48">
+                <div className="w-full h-40 p-4 bg-gradient-to-br from-yellow-600 to-yellow-800 rounded-xl shadow-lg opacity-50 md:h-48">
                   <div className="h-full flex flex-col justify-between">
                     <div>
                       <h4 className="mb-0.5 text-md font-medium text-white md:mb-2 md:text-lg">
                         Pembayaran
                       </h4>
                       <p className="text-xs font-normal text-white opacity-40">
-                        Description aplikasi ...
+                        Sistem mekanisme pembayaran ...
                       </p>
                     </div>
                     <div className="flex justify-between items-end">
@@ -709,9 +750,13 @@ function App() {
                       <a
                         href="https://admin.katalis.info/authentication/login"
                         target="blank"
-                        className="px-4 py-2 text-sm font-normal text-white bg-white-10 rounded-lg"
+                        className="px-4 py-2 text-sm font-normal text-white bg-white-10 rounded-lg pointer-events-none"
                       >
-                        Buka
+                        <Icon
+                          icon="material-symbols:lock-outline"
+                          color="#fff"
+                          className="h-5 w-5"
+                        />
                       </a>
                     </div>
                   </div>
@@ -732,7 +777,7 @@ function App() {
                         BKK
                       </h4>
                       <p className="text-xs font-normal text-white opacity-40">
-                        Description aplikasi ...
+                        Lembaga di Sekolah Menengah Kejuruan ...
                       </p>
                     </div>
                     <div className="flex justify-between items-end">
@@ -764,7 +809,7 @@ function App() {
                         Tracer Study Alumni
                       </h4>
                       <p className="text-xs font-normal text-white opacity-40">
-                        Description aplikasi ...
+                        Studi mengenai lulusan pendidikan ...
                       </p>
                     </div>
                     <div className="flex justify-between items-end">
@@ -796,7 +841,8 @@ function App() {
                         PKL
                       </h4>
                       <p className="text-xs font-normal text-white opacity-40">
-                        Description aplikasi ...
+                        Penyelenggaraan pelatihan dengan bekerja secara langsung
+                        ...
                       </p>
                     </div>
                     <div className="flex justify-between items-end">
@@ -828,7 +874,7 @@ function App() {
                         Kerjasama
                       </h4>
                       <p className="text-xs font-normal text-white opacity-40">
-                        Description aplikasi ...
+                        Usaha bersama kelompok sosial sekolah ...
                       </p>
                     </div>
                     <div className="flex justify-between items-end">
@@ -860,14 +906,14 @@ function App() {
             </h4>
             <div className="grid grid-cols-2 lg:grid-cols-4 -mx-2">
               <div className="px-2 pb-4">
-                <div className="w-full h-40 p-4 bg-gradient-to-br from-violet-600 to-violet-800 rounded-xl shadow-lg md:h-48">
+                <div className="w-full h-40 p-4 bg-gradient-to-br from-violet-600 to-violet-800 rounded-xl shadow-lg opacity-50 md:h-48">
                   <div className="h-full flex flex-col justify-between">
                     <div>
                       <h4 className="mb-0.5 text-md font-medium text-white md:mb-2 md:text-lg">
                         Inventaris
                       </h4>
                       <p className="text-xs font-normal text-white opacity-40">
-                        Description aplikasi ...
+                        Daftar yang berisi sumber daya penting ...
                       </p>
                     </div>
                     <div className="flex justify-between items-end">
@@ -879,23 +925,27 @@ function App() {
                       <a
                         href="material-symbols:inventory-2"
                         target="blank"
-                        className="px-4 py-2 text-sm font-normal text-white bg-white-10 rounded-lg"
+                        className="px-4 py-2 text-sm font-normal text-white bg-white-10 rounded-lg pointer-events-none"
                       >
-                        Buka
+                        <Icon
+                          icon="material-symbols:lock-outline"
+                          color="#fff"
+                          className="h-5 w-5"
+                        />
                       </a>
                     </div>
                   </div>
                 </div>
               </div>
               <div className="px-2 pb-4">
-                <div className="w-full h-40 p-4 bg-gradient-to-br from-rose-600 to-rose-800 rounded-xl shadow-lg md:h-48">
+                <div className="w-full h-40 p-4 bg-gradient-to-br from-rose-600 to-rose-800 rounded-xl shadow-lg opacity-50 md:h-48">
                   <div className="h-full flex flex-col justify-between">
                     <div>
                       <h4 className="mb-0.5 text-md font-medium text-white md:mb-2 md:text-lg">
                         Sistem Kepegawaian
                       </h4>
                       <p className="text-xs font-normal text-white opacity-40">
-                        Description aplikasi ...
+                        Sistem manajemen pegawai ...
                       </p>
                     </div>
                     <div className="flex justify-between items-end">
@@ -905,25 +955,29 @@ function App() {
                         className="h-10 md:h-12 w-10 md:w-12"
                       />
                       <a
-                        href="http://sikadu.smkmutuharjo.com/"
+                        href="#"
                         target="blank"
-                        className="px-4 py-2 text-sm font-normal text-white bg-white-10 rounded-lg"
+                        className="px-4 py-2 text-sm font-normal text-white bg-white-10 rounded-lg pointer-events-none"
                       >
-                        Buka
+                        <Icon
+                          icon="material-symbols:lock-outline"
+                          color="#fff"
+                          className="h-5 w-5"
+                        />
                       </a>
                     </div>
                   </div>
                 </div>
               </div>
               <div className="px-2 pb-4">
-                <div className="w-full h-40 p-4 bg-gradient-to-br from-cyan-600 to-cyan-800 rounded-xl shadow-lg md:h-48">
+                <div className="w-full h-40 p-4 bg-gradient-to-br from-cyan-600 to-cyan-800 rounded-xl shadow-lg opacity-50 md:h-48">
                   <div className="h-full flex flex-col justify-between">
                     <div>
                       <h4 className="mb-0.5 text-md font-medium text-white md:mb-2 md:text-lg">
                         Presensi Guru
                       </h4>
                       <p className="text-xs font-normal text-white opacity-40">
-                        Description aplikasi ...
+                        Sistem manajemen informasi guru ...
                       </p>
                     </div>
                     <div className="flex justify-between items-end">
@@ -933,11 +987,15 @@ function App() {
                         className="h-10 md:h-12 w-10 md:w-12"
                       />
                       <a
-                        href="http://sikadu.smkmutuharjo.com/"
+                        href="#"
                         target="blank"
-                        className="px-4 py-2 text-sm font-normal text-white bg-white-10 rounded-lg"
+                        className="px-4 py-2 text-sm font-normal text-white bg-white-10 rounded-lg pointer-events-none"
                       >
-                        Buka
+                        <Icon
+                          icon="material-symbols:lock-outline"
+                          color="#fff"
+                          className="h-5 w-5"
+                        />
                       </a>
                     </div>
                   </div>
@@ -951,14 +1009,14 @@ function App() {
             </h4>
             <div className="grid grid-cols-2 lg:grid-cols-4 -mx-2">
               <div className="px-2 pb-4">
-                <div className="w-full h-40 p-4 bg-gradient-to-br from-blue-600 to-blue-800 rounded-xl shadow-lg md:h-48">
+                <div className="w-full h-40 p-4 bg-gradient-to-br from-blue-600 to-blue-800 rounded-xl shadow-lg opacity-50 md:h-48">
                   <div className="h-full flex flex-col justify-between">
                     <div>
                       <h4 className="mb-0.5 text-md font-medium text-white md:mb-2 md:text-lg">
                         Buku Induk
                       </h4>
                       <p className="text-xs font-normal text-white opacity-40">
-                        Description aplikasi ...
+                        Membantu staf tata usaha melakukan pengelolaan data ...
                       </p>
                     </div>
                     <div className="flex justify-between items-end">
@@ -968,25 +1026,29 @@ function App() {
                         className="h-10 md:h-12 w-10 md:w-12"
                       />
                       <a
-                        href="http://sikadu.smkmutuharjo.com/"
+                        href="#"
                         target="blank"
-                        className="px-4 py-2 text-sm font-normal text-white bg-white-10 rounded-lg"
+                        className="px-4 py-2 text-sm font-normal text-white bg-white-10 rounded-lg pointer-events-none"
                       >
-                        Buka
+                        <Icon
+                          icon="material-symbols:lock-outline"
+                          color="#fff"
+                          className="h-5 w-5"
+                        />
                       </a>
                     </div>
                   </div>
                 </div>
               </div>
               <div className="px-2 pb-4">
-                <div className="w-full h-40 p-4 bg-gradient-to-br from-stone-600 to-stone-800 rounded-xl shadow-lg md:h-48">
+                <div className="w-full h-40 p-4 bg-gradient-to-br from-stone-600 to-stone-800 rounded-xl shadow-lg opacity-50 md:h-48">
                   <div className="h-full flex flex-col justify-between">
                     <div>
                       <h4 className="mb-0.5 text-md font-medium text-white md:mb-2 md:text-lg">
                         Surat Menyurat
                       </h4>
                       <p className="text-xs font-normal text-white opacity-40">
-                        Description aplikasi ...
+                        Sarana penyampaian informasi secara tertulis ...
                       </p>
                     </div>
                     <div className="flex justify-between items-end">
@@ -996,25 +1058,29 @@ function App() {
                         className="h-10 md:h-12 w-10 md:w-12"
                       />
                       <a
-                        href="http://sikadu.smkmutuharjo.com/"
+                        href="#"
                         target="blank"
-                        className="px-4 py-2 text-sm font-normal text-white bg-white-10 rounded-lg"
+                        className="px-4 py-2 text-sm font-normal text-white bg-white-10 rounded-lg pointer-events-none"
                       >
-                        Buka
+                        <Icon
+                          icon="material-symbols:lock-outline"
+                          color="#fff"
+                          className="h-5 w-5"
+                        />
                       </a>
                     </div>
                   </div>
                 </div>
               </div>
               <div className="px-2 pb-4">
-                <div className="w-full h-40 p-4 bg-gradient-to-br from-teal-600 to-teal-800 rounded-xl shadow-lg md:h-48">
+                <div className="w-full h-40 p-4 bg-gradient-to-br from-teal-600 to-teal-800 rounded-xl shadow-lg opacity-50 md:h-48">
                   <div className="h-full flex flex-col justify-between">
                     <div>
                       <h4 className="mb-0.5 text-md font-medium text-white md:mb-2 md:text-lg">
                         Surat Tugas
                       </h4>
                       <p className="text-xs font-normal text-white opacity-40">
-                        Description aplikasi ...
+                        Surat resmi yang dibuat oleh lembaga ...
                       </p>
                     </div>
                     <div className="flex justify-between items-end">
@@ -1024,25 +1090,29 @@ function App() {
                         className="h-10 md:h-12 w-10 md:w-12"
                       />
                       <a
-                        href="http://sikadu.smkmutuharjo.com/"
+                        href="#"
                         target="blank"
-                        className="px-4 py-2 text-sm font-normal text-white bg-white-10 rounded-lg"
+                        className="px-4 py-2 text-sm font-normal text-white bg-white-10 rounded-lg pointer-events-none"
                       >
-                        Buka
+                        <Icon
+                          icon="material-symbols:lock-outline"
+                          color="#fff"
+                          className="h-5 w-5"
+                        />
                       </a>
                     </div>
                   </div>
                 </div>
               </div>
               <div className="px-2 pb-4">
-                <div className="w-full h-40 p-4 bg-gradient-to-br from-red-600 to-red-800 rounded-xl shadow-lg md:h-48">
+                <div className="w-full h-40 p-4 bg-gradient-to-br from-red-600 to-red-800 rounded-xl shadow-lg opacity-50 md:h-48">
                   <div className="h-full flex flex-col justify-between">
                     <div>
                       <h4 className="mb-0.5 text-md font-medium text-white md:mb-2 md:text-lg">
                         Surat Keterangan
                       </h4>
                       <p className="text-xs font-normal text-white opacity-40">
-                        Description aplikasi ...
+                        Surat untuk memberikan keterangan ...
                       </p>
                     </div>
                     <div className="flex justify-between items-end">
@@ -1052,57 +1122,26 @@ function App() {
                         className="h-10 md:h-12 w-10 md:w-12"
                       />
                       <a
-                        href="http://sikadu.smkmutuharjo.com/"
+                        href="#"
                         target="blank"
-                        className="px-4 py-2 text-sm font-normal text-white bg-white-10 rounded-lg"
+                        className="px-4 py-2 text-sm font-normal text-white bg-white-10 rounded-lg pointer-events-none"
                       >
-                        Buka
+                        <Icon
+                          icon="material-symbols:lock-outline"
+                          color="#fff"
+                          className="h-5 w-5"
+                        />
                       </a>
                     </div>
                   </div>
                 </div>
               </div>
-              <div className="px-2 pb-4">
-                <div className="w-full h-40 p-4 bg-gradient-to-br from-pink-600 to-pink-800 rounded-xl shadow-lg md:h-48">
+              {/* <div className="px-2 pb-4">
+                <div className="w-full h-40 p-4 bg-gradient-to-br from-pink-600 to-pink-800 rounded-xl shadow-lg opacity-50 md:h-48">
                   <div className="h-full flex flex-col justify-between">
                     <div>
                       <h4 className="mb-0.5 text-md font-medium text-white md:mb-2 md:text-lg">
                         Buku Tamu
-                      </h4>
-                      <p className="text-xs font-normal text-white opacity-40">
-                        Description aplikasi ...
-                      </p>
-                    </div>
-                    <div className="flex justify-between items-end">
-                      <Icon
-                        icon="material-symbols:question-mark"
-                        color="#fff"
-                        className="h-10 md:h-12 w-10 md:w-12"
-                      />
-                      <a
-                        href="http://sikadu.smkmutuharjo.com/"
-                        target="blank"
-                        className="px-4 py-2 text-sm font-normal text-white bg-white-10 rounded-lg"
-                      >
-                        Buka
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="mb-2 md:mb-4">
-            <h4 className="mb-2 text-md font-semibold md:text-xl md:mb-4">
-              Aplikasi BK
-            </h4>
-            <div className="grid grid-cols-2 lg:grid-cols-4 -mx-2">
-              <div className="px-2 pb-4">
-                <div className="w-full h-40 p-4 bg-gradient-to-br from-green-600 to-green-800 rounded-xl shadow-lg opacity-50 md:h-48">
-                  <div className="h-full flex flex-col justify-between">
-                    <div>
-                      <h4 className="mb-0.5 text-md font-medium text-white md:mb-2 md:text-lg">
-                        Konseling Siswa
                       </h4>
                       <p className="text-xs font-normal text-white opacity-40">
                         Description aplikasi ...
@@ -1128,9 +1167,48 @@ function App() {
                     </div>
                   </div>
                 </div>
+              </div> */}
+            </div>
+          </div>
+          <div className="mb-2 md:mb-4">
+            <h4 className="mb-2 text-md font-semibold md:text-xl md:mb-4">
+              Aplikasi BK
+            </h4>
+            <div className="grid grid-cols-2 lg:grid-cols-4 -mx-2">
+              <div className="px-2 pb-4">
+                <div className="w-full h-40 p-4 bg-gradient-to-br from-green-600 to-green-800 rounded-xl shadow-lg opacity-50 md:h-48">
+                  <div className="h-full flex flex-col justify-between">
+                    <div>
+                      <h4 className="mb-0.5 text-md font-medium text-white md:mb-2 md:text-lg">
+                        Konseling Siswa
+                      </h4>
+                      <p className="text-xs font-normal text-white opacity-40">
+                        Mengumpulkan Data Tingkah Laku ...
+                      </p>
+                    </div>
+                    <div className="flex justify-between items-end">
+                      <Icon
+                        icon="material-symbols:question-mark"
+                        color="#fff"
+                        className="h-10 md:h-12 w-10 md:w-12"
+                      />
+                      <a
+                        href="#"
+                        target="blank"
+                        className="px-4 py-2 text-sm font-normal text-white bg-white-10 rounded-lg pointer-events-none"
+                      >
+                        <Icon
+                          icon="material-symbols:lock-outline"
+                          color="#fff"
+                          className="h-5 w-5"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
-          </div> */}
+          </div>
         </div>
       </main>
       <nav className="w-full bg-sky-100">
